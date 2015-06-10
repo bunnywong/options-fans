@@ -1,0 +1,16 @@
+/* Home - Header AD */
+#main-head .right img {
+  position: relative;
+  top: 25px;
+  margin-bottom: 40px;
+}
+
+/* Home - Hide original block */
+body.home .row .blocks.col-4:not(.display) {
+  display: none;
+}
+
+/* Home - Show my new AD block */
+.display .adwrap-widget {
+  display: block!important;
+}
